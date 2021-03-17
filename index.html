@@ -15,7 +15,11 @@
   <body>
     <header class="page-header">
       <div class="container">
-        <button class="menu-toggle js-open-menu">
+        <button
+          class="menu-toggle js-open-menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
           <svg
             width="24"
             height="24"
@@ -39,7 +43,8 @@
         </ul>
       </div>
     </header>
-    <div class="menu-container js-menu-container">
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-toggle js-close-menu">
         <svg
           fill="currentColor"
