@@ -97,6 +97,9 @@ body {
 }
 
 .menu-container .menu-toggle {
+  position: absolute;
+  top: 16px;
+  right: 16px;
   color: #fff;
 }
 
